@@ -8,7 +8,7 @@ yarn add socket-not-connected
 ```
 
 ## Usage
-Just add the `socket-not-connected.js` file after jQuery to your html and
+Just add the `socket-not-connected.js` file after jQuery and [ReconnectingWebSocket](https://axiacore.com/) to your html and
 in any script add:
 
 ```js
