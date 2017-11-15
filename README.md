@@ -1,15 +1,21 @@
 # Socket Not Connected
 A widget that notified when a socket can't connect
 
+## Installing using yarn
+
+```bash
+yarn add socket-not-connected
+```
+
 ## Usage
 Just add the `socket-not-connected.js` file after jQuery to your html and
 in any script add:
 
 ```js
-socketNotConnected(url-of-the-socket);
+var socket = socketNotConnected(url-of-the-socket);
 ```
 
-### Settings
+## Settings
 
 Option | Type | Default | Description
 ------ | ---- | ------- | -----------
@@ -21,7 +27,7 @@ linkColor | string | #f11442 | Color of the link
 
 ## Example
 ```js
-socketNotConnected(url-of-the-socket, {
+var socket = socketNotConnected(url-of-the-socket, {
   overlayBackgroundColor = 'rgba(51,51,51,.7)';
   textColor = '#333'; 
   linkColor = '#ef7731';
