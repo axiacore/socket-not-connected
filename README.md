@@ -12,7 +12,7 @@ Just add the `socket-not-connected.js` file after jQuery to your html and
 in any script add:
 
 ```js
-var socket = socketNotConnected(url-of-the-socket);
+var socket = socketNotConnected(url-socket);
 ```
 
 ## Settings
@@ -27,10 +27,10 @@ linkColor | string | #f11442 | Color of the link
 
 ## Example
 ```js
-var socket = socketNotConnected(url-of-the-socket, {
-  overlayBackgroundColor = 'rgba(51,51,51,.7)';
-  textColor = '#333'; 
-  linkColor = '#ef7731';
+var socket = socketNotConnected(url-socket, {
+  overlayBackgroundColor: 'rgba(51,51,51,.7)',
+  textColor: '#333',
+  linkColor: '#ef7731'
 });
 ```
 
