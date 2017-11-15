@@ -1,5 +1,6 @@
 # Socket Not Connected
-A widget that notified when a socket can't connect
+
+A widget that notifies when a websocket can't connect
 
 ## Installing using yarn
 
@@ -34,4 +35,4 @@ var socket = socketNotConnected(url-socket, {
 });
 ```
 
-Brought to you by the fine folks at [Axiacore](https://axiacore.com/)
+Brought to you by the lovely folks at [Axiacore](https://axiacore.com/)

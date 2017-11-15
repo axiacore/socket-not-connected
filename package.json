@@ -1,7 +1,7 @@
 {
   "name": "socket-not-connected",
   "version": "1.0",
-  "description": "A widget that notified when a socket can't connect",
+  "description": "A widget that notifies when a websocket can't connect",
   "main": "socket-not-connected.js",
   "repository": {
     "type": "git",
@@ -16,5 +16,5 @@
   "devDependencies": {
     "learn-reconnecting-websocket": "^1.0.1",
     "jquery": "^3.2.1"
-  },
+  }
 }
