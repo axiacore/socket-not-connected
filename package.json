@@ -1,0 +1,16 @@
+{
+  "name": "socket-not-connected",
+  "version": "1.0",
+  "description": "A widget that notified when a socket can't connect",
+  "main": "socket-not-connected.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axiacore/socket-not-connected.git"
+  },
+  "author": "Axiacore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axiacore/socket-not-connected/issues"
+  },
+  "homepage": "https://github.com/Axiacore/socket-not-connected#readme"
+}
